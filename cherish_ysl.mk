@@ -13,8 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common cherishOS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+CHERISH_MAINTAINER := Harsh-Tagra
+CHERISH_CHIPSET := MSM8953
+CHERISH_BATTERY := 3080mAh
+CHERISH_DISPLAY := 1440x720
+
+
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -24,10 +30,10 @@ USE_PIXEL_CHARGING := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_CARRIER_SETTINGS := true
 TARGET_BOOT_ANIMATION_RES := 720
-CHERISH_MAINTAINER := Harsh-Tagra
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_TOUCHGESTURES := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := cherish_ysl
