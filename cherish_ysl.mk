@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
-BUILD_WITH_GAPPS := true
+TARGET_ENABLE_BLUR := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 CHERISH_BUILD_TYPE := UNOFFICIAL
