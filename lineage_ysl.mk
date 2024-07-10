@@ -10,6 +10,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+#Inherit some ProjectSakura  configuration
+TARGET_SUPPORTS_64_BIT_APPS:=true
+TARGET_BOOT_ANIMATION_RES:=720
+SAKURA_MAINTAINER:= Harsh-Tagra
+SAKURA_BUILD := UNOFFICIAL
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
