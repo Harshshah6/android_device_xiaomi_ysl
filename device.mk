@@ -42,6 +42,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
      Photos
 
+# remove unwanted apps
+PRODUCT_PACKAGES += \
+    RemovePkgs
 
 # Consumer IR
 PRODUCT_PACKAGES += \
