@@ -37,6 +37,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePkgs
 
+# GcamGO
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt
+
+#Photos
+PRODUCT_PACKAGES += \
+PhotosPrebuilt
 
 # Consumer IR
 PRODUCT_PACKAGES += \
