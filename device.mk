@@ -33,6 +33,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.msm8953
 
+# remove unwanted apps
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
