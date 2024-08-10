@@ -16,6 +16,17 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Flags
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_64_BIT_APPS:= true
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 625" \
+    RISING_MAINTAINER="Harsh-Tagra"
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
 PRODUCT_NAME := lineage_ysl
