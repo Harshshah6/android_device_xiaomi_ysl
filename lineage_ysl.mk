@@ -25,7 +25,7 @@ WITH_GMS := true
 TARGET_CORE_GMS := true
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 625" \
-    RISING_MAINTAINER="Harsh-Tagra"
+    RISING_MAINTAINER="LEGENDARY STREAMER"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
