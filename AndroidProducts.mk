@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ysl.mk
+    $(LOCAL_DIR)/derp_ysl.mk
 COMMON_LUNCH_CHOICES := \
     derp_ysl-user \
     derp_ysl-userdebug \
